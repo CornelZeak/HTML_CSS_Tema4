@@ -1,0 +1,323 @@
+:root {
+  --blue: #2196f3;
+  --white: #ffffff;
+  --black: #212121;
+  --black-dark: #757575;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*our-website-section*/
+.our-website {
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: var(--black);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+}
+.section {
+  width: 1200px;
+  padding: 94px 0px 94px 0px;
+}
+/*header-section*/
+.header-section {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  border: var(--blue);
+
+  margin-bottom: 10px;
+}
+/*logo-section-header-footer*/
+.logo-main {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.logo-main__footer-logo,
+.logo-main__header-logo {
+  color: #2196f3;
+}
+/*header-section-left-block*/
+.header-section__left-block {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 100px;
+}
+.header-section__list-main {
+  display: inline-flex;
+  flex-direction: row;
+}
+.header-section__list {
+  list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  vertical-align: top;
+}
+.list-item1,
+.list-item2,
+.list-item3 {
+  list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 10px;
+  padding: 20px;
+}
+.menu-link:hover,
+.menu-link:focus {
+  cursor: pointer;
+  color: var(--blue);
+}
+.menu-link {
+  text-decoration: none;
+  color: var(--black);
+}
+/*header-section-right-side*/
+.header-section__right-block {
+  align-items: baseline;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 160px;
+}
+/*header-section-left-side*/
+.header-section__left-block {
+  align-items: baseline;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+/*hero-section*/
+.hero-section {
+  height: 600px;
+  top: 80px;
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section-title {
+  width: 696px;
+  height: 120px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+/*hero section button*/
+.hero-section button {
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  top: 430px;
+  left: 700px;
+  border: solid var(--black-dark);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section button:hover {
+  background-color: var(--white);
+  border-radius: 1px 1px 1px 1px;
+  color: var(--blue);
+}
+.hero-section button:focus {
+  background-color: var(--white);
+  border-radius: 1px 1px 1px 1px;
+  color: var(--blue);
+}
+.main-content {
+  font-family: var(--main-font);
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.main-content__about-us {
+  width: 900px;
+  height: 101px;
+  display: flex;
+  align-items: stretch;
+}
+.tabel-about {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-content__about-us th {
+  font-weight: 700;
+  text-align: left;
+}
+.main-content__about-us td {
+  color: var(--black-dark);
+  text-align: left;
+}
+.main-content__what-we-do {
+  width: 1200px;
+  margin-top: 94px;
+}
+.picture-what-we-do {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+  padding-left: 94px;
+}
+.main-content__what-we-do h2 {
+  text-align: center;
+  font-size: 36px;
+}
+.main-content__our-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 94px;
+}
+.main-content__our-team span {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--black);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-content__our-team p {
+  color: var(--black-dark);
+}
+/*portofolio-website*/
+.portofolio-website {
+  font-family: var(--main-font);
+  color: var(--black);
+  font-weight: 500;
+}
+/*portofolio-section*/
+.portofolio-content {
+  font-size: 16px;
+  text-align: center;
+}
+.container-porto-main {
+  border: 1px solid #eeeeee;
+}
+.portofolio-content button {
+  cursor: pointer;
+}
+.portofolio-content ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.menu-portofolio {
+  border-style: none;
+}
+.menu-portofolio:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+.menu-portofolio:focus {
+  color: var(--white);
+  background-color: var(--blue);
+}
+.menu-list-portofolio:hover {
+  color: var(--white);
+  border-color: var(--blue);
+}
+.portofolio-content__box-list {
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portofolio-content__box-list p {
+  font-size: 16px;
+  color: var(--black-dark);
+}
+.portofolio-content__box-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.card {
+  margin-bottom: 10px;
+}
+/*footer-section*/
+.basement-section {
+  background-color: #2f303a;
+  width: 1200px;
+  gap: 0px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+/*basement-logo-section*/
+.basement {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.basement-logo {
+  color: var(--white);
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.menu-link-porto {
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.menu-link-porto:hover,
+:focus {
+  color: #2196f3;
+}
+.basement-logo:hover,
+:focus {
+  color: #2196f3;
+}
